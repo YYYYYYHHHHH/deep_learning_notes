@@ -11,3 +11,13 @@ df.info()  用于查看数据结构
 df.describe()  查看统计信息
 
 ![img.png](img.png)
+
+df.corr()  计算变量之间的相关性，结果范围-1 ~ 1
+
+**Boston房价预测任务**：根据房屋特征预测房价
+
+**[目标变量]** MEDV
+
+**[类型]** 回归问题
+
+**[使用模型]** LinearRegression(线性回归模型)
